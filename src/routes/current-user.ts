@@ -1,6 +1,6 @@
 import express, { Request, Response } from "express";
 
-import { currentUser } from "@srikar-test/common";
+import { currentUser } from "@srikar-test/micro-common";
 
 const router = express.Router();
 

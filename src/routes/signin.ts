@@ -2,8 +2,8 @@ import express, { Request, Response } from "express";
 import jwt from "jsonwebtoken";
 import { body } from "express-validator";
 
-import { BadRequestError } from "@srikar-test/common";
-import { validateRequest } from "@srikar-test/common";
+import { BadRequestError } from "@srikar-test/micro-common";
+import { validateRequest } from "@srikar-test/micro-common";
 import { Password } from "../services/Password";
 import { User } from "../models/user";
 

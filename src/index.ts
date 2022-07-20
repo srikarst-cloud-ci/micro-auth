@@ -5,7 +5,7 @@ import { app } from "./app";
 const start = async () => {
   try {
     await mongoose.connect(
-      "mongodb+srv://srikarst:srikar10@cluster0.gopsx.mongodb.net/authdb?retryWrites=true&w=majority",
+      "mongodb+srv://srikarst:srikar10@cluster0.gopsx.mongodb.net/micro-authdb?retryWrites=true&w=majority",
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
